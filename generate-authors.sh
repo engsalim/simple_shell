@@ -12,6 +12,6 @@ cd  "$(dirname  "$(readlink -f  "$BASH_SOURCE")")/"
 	EOH
 	eco
 git log --format='%aN <%aE>'  | LC_ALL=C.UTF-8 ordenar -uf
-} > AUTORES
+} > AUTHORES
 
 
